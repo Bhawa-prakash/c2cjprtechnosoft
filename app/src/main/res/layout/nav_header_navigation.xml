@@ -48,13 +48,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="10dp"
-                android:textColor="@color/logintextcolor"
-                android:text="+91-9839194369" />
+                android:text="+91-9839194369"
+                android:textColor="@color/logintextcolor" />
         </LinearLayout>
 
 
-
     </RelativeLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"

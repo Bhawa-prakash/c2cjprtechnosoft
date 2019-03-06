@@ -1,5 +1,6 @@
-package com.e.c2cjprtechnosoft;
+package com.e.c2cjprtechnosoft.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.e.c2cjprtechnosoft.R;
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -89,14 +92,21 @@ public class NavigationActivity extends AppCompatActivity
         } else if (id == R.id.rate_card) {
 
         } else if (id == R.id.c2c_money) {
+            Intent i = new Intent(NavigationActivity.this,C2CMoneyActivity.class);
+            startActivity(i);
 
         } else if (id == R.id.payment) {
+            Intent i = new Intent(NavigationActivity.this,PaymentActivity.class);
+            startActivity(i);
+
+        } else if (id == R.id.support) {
 
         }
-        else if (id == R.id.support) {
+        else if (id == R.id.about) {
+            Intent i = new Intent(NavigationActivity.this,AboutActivity.class);
+            startActivity(i);
 
         }
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

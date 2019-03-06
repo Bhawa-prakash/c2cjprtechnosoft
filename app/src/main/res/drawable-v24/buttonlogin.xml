@@ -9,8 +9,8 @@
 
     <gradient
         android:angle="0"
-        android:startColor="@color/loginbutton"
-        android:endColor="@color/loginbutton"
+        android:startColor="@color/black"
+        android:endColor="@color/black"
         android:type="linear"/>
 
 
@@ -20,7 +20,7 @@
 
     <stroke
         android:width="2dp"
-        android:color="@color/loginbutton"
+        android:color="@color/black"
         />
 
 

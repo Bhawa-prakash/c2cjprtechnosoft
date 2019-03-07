@@ -9,15 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.AboutActivity"
-            android:label="About"></activity>
-        <activity
-            android:name=".activities.PaymentActivity"
-            android:label="Payment" />
-        <activity
-            android:name=".activities.C2CMoneyActivity"
-            android:label="C2C Money"
-            android:theme="@style/AppTheme" />
         <activity
             android:name=".activities.NavigationActivity"
             android:label="@string/title_activity_navigation"

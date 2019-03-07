@@ -16,6 +16,21 @@
             android:id="@+id/know_your_ride"
             android:icon="@drawable/md_5aa8fceea1b8e"
             android:title="Know your rides" />
+
+        <item
+            android:id="@+id/mygroup"
+            android:icon="@drawable/md_5aa8fceea1b8e"
+            android:title="My groups" />
+
+        <item
+            android:id="@+id/Refer_earn"
+            android:icon="@drawable/md_5aa8fceea1b8e"
+            android:title="Refers $ Earns" />
+
+        <item
+            android:id="@+id/myoffers"
+            android:icon="@drawable/md_5aa8fceea1b8e"
+            android:title="My Offer" />
         <item
             android:id="@+id/rate_card"
             android:icon="@drawable/text"

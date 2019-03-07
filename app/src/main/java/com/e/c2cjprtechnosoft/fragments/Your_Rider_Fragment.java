@@ -17,4 +17,5 @@ public class Your_Rider_Fragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return  inflater.inflate(R.layout.fragment_your_rider,container,false);
     }
+    
 }

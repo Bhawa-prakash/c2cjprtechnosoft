@@ -89,35 +89,44 @@ public class NavigationActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.book_your_ride) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Book_your_ride_Fragment()).commit();
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Book_your_ride_Fragment()).commit();
 
         } else if (id == R.id.your_rider) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Your_Rider_Fragment()).commit();
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Your_Rider_Fragment()).commit();
 
         } else if (id == R.id.know_your_ride) {
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Know_Your_ride_Fragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Know_Your_ride_Fragment()).commit();
+
         } else if (id == R.id.mygroup) {
 
         } else if (id == R.id.Refer_earn) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Refers_And_Earn()).commit();
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Refers_And_Earn()).commit();
+
         } else if (id == R.id.myoffers) {
 
         } else if (id == R.id.rate_card) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Rate_Card_Fragment()).commit();
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Rate_Card_Fragment()).commit();
 
         } else if (id == R.id.c2c_money) {
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new C2CmoneyFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new C2CmoneyFragment()).commit();
+
         } else if (id == R.id.payment) {
 
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new PaymentFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new PaymentFragment()).commit();
 
         } else if (id == R.id.support) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new Support_Fragment()).commit();
-        }
-        else if (id == R.id.about) {
-           getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer,new AboutFragment()).commit();
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new Support_Fragment()).commit();
+
+        } else if (id == R.id.about) {
+
+            getSupportFragmentManager().beginTransaction().replace(R.id.framecontainer, new AboutFragment()).commit();
 
         }
 
